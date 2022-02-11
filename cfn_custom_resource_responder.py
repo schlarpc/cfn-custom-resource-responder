@@ -57,6 +57,7 @@ def create_template():
                 "Reason": "Unhandled error: $errorType: $errorMessage",
             #else
                 "Status": "SUCCESS",
+                "Reason": "",
             #end
 
             #if ($details.requestPayload.containsKey('PhysicalResourceId'))
